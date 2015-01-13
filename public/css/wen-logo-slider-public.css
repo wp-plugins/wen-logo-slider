@@ -1,0 +1,39 @@
+ /**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wls-carousel .owl-item{
+  text-align: center;
+}
+
+.wls-carousel .owl-controls .owl-buttons  .owl-next {
+  background-image: url("../images/arrows.png");
+  background-position: -30px 0;
+  background-repeat: no-repeat;
+  height: 30px;
+  float:right;
+  width: 30px;
+  padding: 0;
+}
+
+.wls-carousel .owl-controls .owl-buttons .owl-prev {
+  background-image: url("../images/arrows.png");
+  background-position: 0px 0;
+  background-repeat: no-repeat;
+  height: 30px;
+  float: left;
+  width: 30px;
+  padding: 0;
+}
+.wls-carousel .owl-controls {
+  margin-top: 10px;
+  position: absolute;
+  text-align : center;
+  top: 28%;
+  width: 100%;
+}
+.wls-carousel .owl-controls .owl-buttons div{
+  background-color: inherit;
+  padding: 0;
+}
