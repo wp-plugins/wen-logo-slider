@@ -65,6 +65,7 @@ Nice, make a post on the [Support Forum](http://wordpress.org/support/plugin/wen
 == Screenshots ==
 
 1. Slider page
+2. Display slider in front-end
 
 == Changelog ==
 
