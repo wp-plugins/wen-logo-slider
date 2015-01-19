@@ -13,19 +13,20 @@ Simple responsive logo slider for your WordPress site
 == Description ==
 
 <h3>WEN Logo Slider</h3>
-This plugin will help you to show logos in responsive carousel in your WordPress site.
+Logo Slider by WEN Themes, is a simple solution for carousel-based affiliation , in mind, but can be used and extended to a wide variety of purpose for responsive, beautiful display of slideshow. It comes with standard options that gives the admin control over the look and feel of the slider.    
 
 **Features**  
-- Fully Responsive logo slider
-- Simple and easy to use
-- External link for logo
-- Options for slide speed, transition delay, number of logos per slide
-- Show/hide navigation arrow in slider
-- Option to choose image size
-- Use WordPress Media Library to upload logo images
-- Easy re-ordering of logo images
-- Multiple slideshows
-- Powered by [OWL Carousel](http://owlgraphic.com/owlcarousel/)
+
+* Fully Responsive slider
+* Simple and easy to use
+* External link for each slide
+* Options for slide speed, transition delay, number of logos per slide
+* Show/hide navigation arrow in slider
+* Option to specify image size
+* Uses WordPress Media Library to upload images
+* Easy re-ordering of images ( drag-drop )
+* Multiple slideshows
+* Powered by [OWL Carousel](http://owlgraphic.com/owlcarousel/)
 
 If you like this plugin, please [rate and review](http://wordpress.org/support/view/plugin-reviews/wen-logo-slider).
 If you have any question, suggestion or issue, please [post here](http://wordpress.org/support/plugin/wen-logo-slider).
