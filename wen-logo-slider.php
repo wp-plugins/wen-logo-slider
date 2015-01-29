@@ -16,8 +16,8 @@
  * Plugin Name:       WEN Logo Slider
  * Plugin URI:        https://wordpress.org/plugins/wen-logo-slider/
  * Description:       Simple responsive logo slider for your WordPress site
- * Version:           1.0.0
- * Author:            WEN
+ * Version:           1.0.1
+ * Author:            WEN Themes
  * Author URI:        http://wenthemes.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

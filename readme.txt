@@ -1,7 +1,7 @@
 === WEN Logo Slider ===
 Contributors: wenthemes
 Donate link: http://wenthemes.com
-Tags: carousel, logo, slider, image carousel, logo carousel, logo showcase, logo slide, logo slide show, logo slider, logo slideshow, responsive, 
+Tags: carousel, logo, slider, image carousel, logo carousel, logo showcase, logo slide, logo slide show, logo slider, logo slideshow, responsive,
 Requires at least: 3.8
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -13,9 +13,9 @@ Simple responsive logo slider for your WordPress site
 == Description ==
 
 <h3>WEN Logo Slider</h3>
-Logo Slider by WEN Themes, is a simple solution for carousel-based affiliation , in mind, but can be used and extended to a wide variety of purpose for responsive, beautiful display of slideshow. It comes with standard options that gives the admin control over the look and feel of the slider.    
+Logo Slider by WEN Themes, is a simple solution for carousel-based affiliation , in mind, but can be used and extended to a wide variety of purpose for responsive, beautiful display of slideshow. It comes with standard options that gives the admin control over the look and feel of the slider.
 
-**Features**  
+**Features**
 
 * Fully Responsive slider
 * Simple and easy to use
@@ -25,11 +25,12 @@ Logo Slider by WEN Themes, is a simple solution for carousel-based affiliation ,
 * Option to specify image size
 * Uses WordPress Media Library to upload images
 * Easy re-ordering of images ( drag-drop )
+* Option for random ordering of images
 * Multiple slideshows
 * Powered by [OWL Carousel](http://owlgraphic.com/owlcarousel/)
 
-If you like this plugin, please [rate and review](http://wordpress.org/support/view/plugin-reviews/wen-logo-slider).
-If you have any question, suggestion or issue, please [post here](http://wordpress.org/support/plugin/wen-logo-slider).
+Plugin : [Homepage](http://wenthemes.com/item/wordpress-plugins/wen-logo-slider/)
+If you like this plugin, please [rate and review](http://wordpress.org/support/view/plugin-reviews/wen-logo-slider). If you have any question, suggestion or issue, please [post here](http://wordpress.org/support/plugin/wen-logo-slider).
 
 
 == Installation ==
@@ -69,6 +70,14 @@ Nice, make a post on the [Support Forum](http://wordpress.org/support/plugin/wen
 2. Display slider in front-end
 
 == Changelog ==
+
+= 1.0.1 =
+* Feature: Enable random order for images display
+* Feature: Stop slider on mouse hover
+* Feature: Alt tag for images
+* Feature: Default tooltip for images (uses image title)
+* Fix: Minor bug fixes
+
 
 = 1.0.0 =
 * Initial release

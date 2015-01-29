@@ -73,9 +73,16 @@ class WEN_Logo_Slider_Shortcode {
         'image_size'              => 'thumbnail',
         'images_per_slide'        => 5,
         'enable_navigation_arrow' => 0,
+        'enable_random_order'     => 0,
         );
        $slider_settings = array_merge( $defaults, $slider_settings );
        $slider_settings['random_id'] = uniqid(esc_attr($atts['id']).'-');
+       ?>
+       <?php
+        if ( 1 == $slider_settings['enable_random_order'] ){
+          // Shuffle slider images
+          shuffle( $slides );
+        }
        ?>
 
       <div id="wls-carousel-<?php echo esc_attr($slider_settings['random_id']);?>" class="owl-carousel wls-carousel">
@@ -101,6 +108,9 @@ class WEN_Logo_Slider_Shortcode {
             if ( 'yes' == $slide['slide_new_window'] ) {
               $link_open .= ' target="_blank" ';
             }
+            if ( ! empty( $slide['title'] ) ) {
+              $link_open .= ' title="' . esc_attr( $slide['title'] ) . '" ';
+            }
             $link_open .='>';
             $link_close = '</a>';
           }
@@ -108,7 +118,7 @@ class WEN_Logo_Slider_Shortcode {
          ?>
 
          <?php echo $link_open; ?>
-         <img src="<?php echo esc_url( $image_url ); ?>" alt="" />
+         <img src="<?php echo esc_url( $image_url ); ?>" alt="<?php echo esc_attr( $slide['title'] ); ?>" title="<?php echo esc_attr( $slide['title'] ); ?>" />
          <?php echo $link_close; ?>
 
 
@@ -122,8 +132,6 @@ class WEN_Logo_Slider_Shortcode {
 
 
      <?php endif ?>
-
-
 
     <?php
     $output = ob_get_contents();
@@ -144,6 +152,7 @@ class WEN_Logo_Slider_Shortcode {
         pagination: false,
         navigation: <?php echo ($settings['enable_navigation_arrow'])? 'true':'false'; ?>,
         navigationText : false,
+        stopOnHover : true,
         paginationSpeed: <?php echo esc_attr( $settings['transition_time'] ) * 1000 ; ?>,
         autoPlay: <?php echo esc_attr( $settings['slider_delay'] ) * 1000 ; ?>
       });

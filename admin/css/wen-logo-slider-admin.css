@@ -47,3 +47,7 @@
 .slide-item-wrap {
   cursor: move;
 }
+
+.slide-item-wrap i{
+  vertical-align: middle;
+}

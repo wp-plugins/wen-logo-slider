@@ -153,6 +153,7 @@ class WEN_Logo_Slider_Admin {
 			'image_size'              => 'thumbnail',
 			'images_per_slide'        => 5,
 			'enable_navigation_arrow' => 0,
+			'enable_random_order'     => 0,
 			);
 		$settings_args = array_merge( $defaults, $wls_settings );
 
@@ -180,6 +181,10 @@ class WEN_Logo_Slider_Admin {
 		<p><strong><?php _e( 'Navigation Arrow', 'wen-logo-slider' ); ?></strong></p>
 		<input type="hidden" name="wen_logo_slider_settings[enable_navigation_arrow]" value="0" />
 		<input type="checkbox" name="wen_logo_slider_settings[enable_navigation_arrow]" value="1" <?php checked( $settings_args['enable_navigation_arrow'], 1, true); ?> />
+		<span class="small"><?php _e( 'Enable', 'wen-logo-slider' ); ?></span>
+		<p><strong><?php _e( 'Random Order', 'wen-logo-slider' ); ?></strong></p>
+		<input type="hidden" name="wen_logo_slider_settings[enable_random_order]" value="0" />
+		<input type="checkbox" name="wen_logo_slider_settings[enable_random_order]" value="1" <?php checked( $settings_args['enable_random_order'], 1, true); ?> />
 		<span class="small"><?php _e( 'Enable', 'wen-logo-slider' ); ?></span>
 		<?php
 
@@ -220,8 +225,6 @@ class WEN_Logo_Slider_Admin {
 		?>
 
 		<?php wp_nonce_field( plugin_basename( __FILE__ ), 'wen_logo_slider_slides_nonce' ); ?>
-
-		<p><input type="button" value="<?php  esc_attr( _e( 'Add New Slide', 'wen-logo-slider' ) ); ?>" class="button button-primary btn-add-slide-item" /></p>
 
 		<div id="main-slides-list-wrap">
 
@@ -305,6 +308,7 @@ class WEN_Logo_Slider_Admin {
 			 <?php endif ?>
 
 		</div><!-- #main-slides-list-wrap -->
+		<p><input type="button" value="<?php  esc_attr( _e( 'Add New Slide', 'wen-logo-slider' ) ); ?>" class="button button-primary btn-add-slide-item" /></p>
 		<?php
 
 	}
