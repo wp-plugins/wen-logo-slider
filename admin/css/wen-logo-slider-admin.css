@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+.slide-item-wrap{
+  margin: 10px 0;
+  border: 1px #cccccc solid;
+  padding: 10px;
+  clear: both;
+  height: auto;
+  overflow: hidden;
+  background-color: #F1F1F1;
+}
+.slide-item-wrap .wls-form-row{
+  margin-bottom:5px;
+}
+
+.slide-item-wrap .slide-item-left{
+  width: 200px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.slide-item-wrap .slide-item-right{
+  display: block;
+  margin-left:210px;
+}
+
+.slide-item-wrap .btn-wls-remove-image-upload{
+  height: auto;
+  overflow: hidden;
+  text-decoration: none;
+  color: #FF9999;
+}
+
+.slide-item-wrap .btn-wls-remove-image-upload:hover{
+  color: #FF0000;
+}
+
+.slide-item-wrap .btn-remove-slide-item{
+  float: right;
+  margin-right: 20px;
+}
+
+.slide-item-wrap {
+  cursor: move;
+}
+
+.slide-item-wrap i{
+  vertical-align: middle;
+}

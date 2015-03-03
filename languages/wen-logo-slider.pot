@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WEN Logo Slider\n"
+"POT-Creation-Date: 2015-01-23 14:28+0530\n"
+"PO-Revision-Date: 2015-01-23 14:29+0530\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../wen-logo-slider\n"
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:85
+msgid "Are you sure?"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:86
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:292
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:616
+msgid "Yes"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:87
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:293
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:617
+msgid "No"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:88
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:299
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:623
+msgid "Remove"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:89
+msgid "Image"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:90
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:258
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:588
+msgid "Upload"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:91
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:544
+msgid "Insert"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:92
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:258
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:588
+msgid "Select"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:93
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:258
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:588
+msgid "Select Image"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:94
+msgid "Title"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:95
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:280
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:281
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:602
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:603
+msgid "Enter Title"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:96
+msgid "URL"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:97
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:286
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:287
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:609
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:610
+msgid "Enter URL"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:98
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:295
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:619
+msgid "Open in new window"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:116
+msgid "Slides"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:124
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:437
+msgid "Usage"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:131
+msgid "Slider Settings"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:164
+msgid "Slider Delay"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:164
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:166
+msgid "in seconds"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:166
+msgid "Transition Time"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:168
+msgid "Images per Slide"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:169
+#, php-format
+msgid "number between %d-%d"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:175
+msgid "Image Size"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:181
+msgid "Navigation Arrow"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:184
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:188
+msgid "Enable"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:185
+msgid "Random Order"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:229
+msgid "Add New Slide"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:268
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:590
+msgid "Preview"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:319
+msgid "Shortcode"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:320
+msgid "Copy and paste this shortcode directly into any WordPress post or page."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:323
+msgid "Template Include"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:324
+msgid ""
+"Copy and paste this code into a template file to include the slider within "
+"your theme."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:534
+msgid "Select Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:571
+msgid "No slider found"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:639
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:642
+msgid "Slider updated."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:640
+msgid "Custom field updated."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:641
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:644
+#, php-format
+msgid "Slider restored to revision from %s"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:645
+msgid "Slider created."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:646
+msgid "Slider saved."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:647
+msgid "Slider submitted."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:649
+#, php-format
+msgid "Slider scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:651
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/class-wen-logo-slider-admin.php:653
+msgid "Slider draft updated."
+msgstr ""
+
+#: ../../wen-logo-slider/admin/partials/wen-logo-slider-tinymce-plugin-langs.php:12
+msgid "WEN Logo Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/admin/partials/wen-logo-slider-tinymce-plugin-langs.php:13
+msgid "WEN Logo Slider Shortcode Generator"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:88
+msgid "Add New Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:89
+msgid "New Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:90
+msgid "Edit Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:91
+msgid "View Slider"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:92
+msgid "All Sliders"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:93
+msgid "Search Sliders"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:94
+msgid "Parent Sliders:"
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:95
+msgid "No sliders found."
+msgstr ""
+
+#: ../../wen-logo-slider/public/class-wen-logo-slider-public.php:96
+msgid "No sliders found in Trash."
+msgstr ""
+
+#: ../../wen-logo-slider/includes/class-wen-logo-slider-shortcode.php:57
+msgid "Slider not found"
+msgstr ""
